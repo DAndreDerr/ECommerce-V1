@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dre's Reel Deals | Home</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="everything">
+    <nav>  <!--below is the code for the navigation bar-->
+        <ul>
+            <li id="navlogo"><img src="images/Logo.png"></li> <!--list entry with logo image and unique id-->
+            <li class="cart"><a><img src="images/cart.png"></a></li>
+            <li class="navimg"><a href="community.html"><img src="images/bass.png"></a></li>
+            <li class="navimg"><a href="products.html"><img src="images/perch.png"></a></li> 
+            <li class="navimg"><a href="index.html"><img src="images/Bluegill.png"></a></li> <!--Anchor leading to Home Page--> 
+        </ul>
+    </nav>
+    <main>
+        <div class="heroimg">
+            <section class="herotext"> <!--Div containing all text on top of the hero image-->
+                <h1>Welcome to Dre's Reel Deals</h1><br>
+                <p>We are your one-stop-shop for all your fishing and tackle needs. As a passionate angler myself, I understand the importance of having high-quality gear and equipment to ensure a successful and enjoyable fishing experience. That's why I founded Dre's Reel Deals, to provide fellow fishing enthusiasts with the best selection of top-quality products at affordable prices. Our team is dedicated to delivering exceptional customer service and support, and we are committed to helping you find the perfect gear for your next fishing adventure. Whether you're a beginner or a pro, we've got you covered. Thank you for choosing Dre's Reel Deals, and happy fishing!</p>
+                <br>
+            </section>
+        </div>
+        <section class="bestseller">
+            <h2>Best Sellers</h2>
+            <br>
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <img src="images/facebook.jpeg">
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="facebook.jpeg">
+                  <div class="text">Caption Two</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <img src="facebook.jpeg">
+                  <div class="text">Caption Three</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+              <br>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footercontainer">
+            <img src="images/circleLogo.png" class="footeritem">
+            <div class="footeritem">
+                <ul class="footerlist">
+                    <li class="listitem"><a href="index.html" class="footerlinks">Home</a></li>
+                    <li class="listitem"><a href="products.html" class="footerlinks">Products</a></li>
+                    <li class="listitem"><a href="community.html" class="footerlinks">Community</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social-icons"> <!--Div containing all social media image anchors-->
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.jpeg" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.jpeg" alt="Instagram">
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="images/twitter.jpeg" alt="Twitter">
+          </a>
+      </div> <!--Div containing all social media image anchors-->
+      </footer> 
+<script src="app.js"></script>
 </body>
 </html>

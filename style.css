@@ -1,0 +1,230 @@
+/* #617A55
+#A4D0A4
+#F7E1AE
+#FFF8D6 */
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(images/lure.png), auto !important;
+}
+body {
+    background-color: #F7E1AE;
+    font-family: Georgia;
+}
+
+.everything {
+        cursor: url('images/lure.png'), auto;
+}
+
+nav ul { /* code for the List that makes up nav bar*/
+    list-style-type: none; /*gets rid of bullet points*/
+    overflow: hidden; /*keeps nav content inside container*/
+}
+
+#navlogo {
+/* change */
+  display: block; /*displays element with block properties*/
+  float: left; /*positions to the right of container*/
+  width: 40%; 
+}
+
+#navlogo img {
+    width: 20rem;
+}
+
+nav a { /*all code for the anchors in nav bar*/
+    float: right; /*postions the nav anchors to the left of container*/
+    display: block; /*displays element with block properties*/
+    color: #FFF8D6;
+    /* background-color: #617A55; */
+    border-radius: 10rem;
+    text-align: center; /*centers text*/
+    padding: .5rem;
+    text-decoration: none; /*removes text decoration (bullet points)*/
+}
+
+nav a:hover { /*impacts the properties when hovering over an anchor in nav*/
+    background-color: #A4D0A4;
+}
+
+.navimg img {
+    width: 8rem;
+}
+
+footer {
+    background-color: #816951;
+    text-align: center;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.footercontainer img {
+    margin-right: 4rem;
+}
+
+.footeritem {
+    display: flex;
+}
+
+footer img {
+    width:7rem;
+    text-align: center;
+}
+
+.footerlinks {
+    text-decoration: none;
+    color:rgb(1, 46, 1);
+    border-radius: .2rem;
+    margin: .5rem;
+}
+
+.footerlist {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.listitem {
+    margin-top: .75rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.social-icons img { /*code for social media images*/
+    width: 4vw;
+    height: auto;
+    margin: 5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+
+}
+
+.cart {
+    float: right; /*postions the nav anchors to the left of container*/
+    display: block; /*displays element with block properties*/
+    border-radius: 10rem;
+    text-align: center; /*centers text*/
+    padding: .5rem;
+    text-decoration: none; /*removes text decoration (bullet points)*/
+}
+
+.cart img {
+    width: 4rem;
+}
+
+.heroimg {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/wood.png);
+    height: 70vh;
+    width: 100vw;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    align-items: center;
+    justify-content: center;
+}
+
+.herotext { /*All code for text that goes on top of hero image*/
+    position: absolute; /*makes position fixed to where I put it*/
+    max-width: 60vw;
+    height: auto;
+    /* top: 30%; positions it 30% the size of the page from the top */
+    right: 20%; /*positions it a third of the page from the right size*/
+    color: darkgreen;
+    text-align: center;
+    background-color: #A4D0A4;
+    border-radius: 10px; /*rounds the borders edges*/
+    border-style: solid; /*Makes border solid line*/
+    opacity: 80%;
+}
+
+
+.bestseller {
+    color:darkgreen;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+
+.mySlides img {
+    width: 40rem;
+    height: auto;
+    border-radius: 2rem;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #617A55;
+    background-color: rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 15rem;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
