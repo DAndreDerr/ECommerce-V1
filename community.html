@@ -17,32 +17,79 @@
             <li class="navimg"><a href="index.html"><img src="images/Bluegill.png"></a></li> <!--Anchor leading to Home Page--> 
         </ul>
     </nav>
+    <div class="heroimg">
+        <section class="herotext"> <!--Div containing all text on top of the hero image-->
+            <h1>Welcome to the Community</h1><br>
+            <p>The Dre's Reel Deals fishing community is compromised of anglers who share a passion for the sport and a love of the great outdoors. This Community page serves as an outlet for us to come together to share tips, stories, and their love for the sport.</p>
+            <br>
+        </section>
+    </div>
+    <div class="catchescontainer">
+        <div class="catchesitem">
+            <h2>Community Catches</h2>
+            <p>Welcome to our community catches section, where we showcase the best catches from our fellow anglers. We believe that fishing is not only a sport but also a way to connect with nature and share unforgettable moments with family and friends. That's why we encourage our community members to share their catches with us, so we can celebrate their success and inspire others to get out on the water. So, send us your best fishing photos and let's showcase the beauty and excitement of this amazing sport together!</p>
 
-
-
-    <footer>
-        <div class="footercontainer">
-            <img src="images/circleLogo.png" class="footeritem">
-            <div class="footeritem">
-                <ul class="footerlist">
-                    <li class="listitem"><a href="index.html" class="footerlinks">Home</a></li>
-                    <li class="listitem"><a href="products.html" class="footerlinks">Products</a></li>
-                    <li class="listitem"><a href="community.html" class="footerlinks">Community</a></li>
-                </ul>
-            </div>
         </div>
-        <div class="social-icons"> <!--Div containing all social media image anchors-->
+        <div class="catchpic catchesitem">
+            <img name="slide" width="400" height="200">
+        </div>
+    </div>
+    <div class="spotscontainer">
+        <div class="spotsitem">
+            <iframe class="spotmap"src="https://my.atlist.com/map/f410914a-63bd-481a-967a-15eede2dfd12?share=true" allow="geolocation 'self' https://my.atlist.com" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
+        <div class="spotsitem">
+            <h2>Need a Spot?</h2>
+            <p>Discover the best fishing spots in the Charlotte area with our interactive map. We've scouted the top locations for various types of fishing, from rivers and lakes to streams and ponds, and marked them on the map so you can easily find your next fishing adventure. Whether you're a local or a visitor, our map will help you navigate to the best spots for your preferred catch. So, grab your gear, check out our map, and get ready for an exciting day of fishing!</p>
+
+        </div>
+    </div>
+    <section>
+        <h2 class="contactheading">Contact the Fish Fam</h2>
+        <form class="contactcontainer">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+            <label for="cellnum">Phone Number</label>
+            <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." required>
+            
+            <label for="subject">What can Dre do for you?</label>
+            <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
+            
+            <input type="submit" value="Submit" class="contactbutton">
+        </form>
+    </section>
+    <footer>
+      <div class="footercontainer">
+          <img src="images/circleLogo.png" class="footerlogo footeritem">
+          <div class="footeritem">
+              <ul class="footerlist">
+                  <li class="listitem"><a href="index.html" class="footerlinks">Home</a></li>
+                  <li class="listitem"><a href="products.html" class="footerlinks">Products</a></li>
+                  <li class="listitem"><a href="community.html" class="footerlinks">Community</a></li>
+              </ul>
+          </div>
+     
+          <div class="social-icons"> <!--Div containing all social media image anchors-->
+          <h3>Find us Here!</h3>
           <a href="https://www.facebook.com/" target="_blank">
-            <img src="images/facebook.jpeg" alt="Facebook">
+              <img src="images/facebook.jpeg" alt="Facebook">
           </a>
           <a href="https://www.instagram.com/" target="_blank">
-            <img src="images/instagram.jpeg" alt="Instagram">
+              <img src="images/instagram.jpeg" alt="Instagram">
           </a>
           <a href="https://twitter.com/" target="_blank">
-            <img src="images/twitter.jpeg" alt="Twitter">
+              <img src="images/twitter.jpeg" alt="Twitter">
           </a>
+          </div>
       </div> <!--Div containing all social media image anchors-->
-    </footer> 
-    <script src="app.js"></script>
+  </footer> 
+  <script src="community.js"></script>
 </body>
 </html>

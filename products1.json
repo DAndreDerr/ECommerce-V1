@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "image": "productimages/rod1.webp",
+            "title": "DOCK DEMON RED 1PC ",
+            "description": "The DOCK DEMON SPINNING ROD & REEL RED 30 inch Combo features many elements including Medium, rod power, fishing species and model. There's a lot to like about this small but mighty rod and reel Combo. ",
+            "price": 9.99
+        },
+        {
+            "image": "productimages/rod2.webp",
+            "title": "Ugly Stik 7 Catfish Spinning Fishing Rod and Reel Catfish Combo",
+            "description": "UGLY STIK 7 CATFISH FISHING ROD AND REEL CATFISH COMBO: Durable, dependable Ugly Stik capability, kitted out with an oversized handle knob for fighting big cats.",
+            "price": 54.99
+        },
+        {
+            "image": "productimages/rod3.webp",
+            "title": "Abu Garcia Black Max Fishing Rod and Reel Baitcast Combo",
+            "description": "The upgraded Black Max low profile baitcast combo is engineered with class-leading performance in a compact, lightweight design. A graphite frame and body, along with the compact bent handle and drag star, provide a more ergonomic feel for all-day fishing sessions.",
+            "price": 60.99
+        },
+        {
+            "image": "productimages/rod4.webp",
+            "title": "Shakespeare Conquest Crappie Spinning Reel and Fishing Rod Combo",
+            "description": "Get ready to fish with this Shakespeare Conquest Spinning Combo. It features a 6 foot 6 inch two-piece medium-action rod and has a comfortable split-grip cork handle. The reel and rod Combo has a cold-forged aluminum-ported spool for added durability and strength as well as a lightweight feel.",
+            "price": 19.99
+        }
+    ]
+}
+  

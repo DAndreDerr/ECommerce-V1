@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "image": "productimages/tackle1.webp",
+            "title": "Eagle Claw Bass Tackle Kit 55 Pieces",
+            "description": "The Eagle Claw Bass Tackle Kit gives you 55 essential pieces of tackle you need to get started fishing Bass. Just add your own rod, reel, line and bait to get the fish into your bucket!Kit includes:- Bells, swivels, hooks, sinkers and floats are included - Poly stringer and a line clipper with lanyard- Comes in a reusable tackle box1 Bass Tackle Kit with 55 pieces of tackle",
+            "price": 10.99
+        },
+        {
+            "image": "productimages/tackle2.webp",
+            "title": "Fishing Lure Bait Set with Box",
+            "description": "Lifelike 3D Bait is Tempting,Made of High Quality of Metal and Plastic Fishing Lure Tackle Kit Bionic Bass Trout Salmon Pike Fishing Lure Frog Minnow Popper Pencil Crank Soft Hard Bait Fishing Lure Metal Spoon Jig Lure Various lures Type Mixed With Hard Lures and Soft Lures and fishing hooks,(as picture show) Functional Lures Set For Fishing Lover and Starter Best Gift for Husband or Boyfriend.",
+            "price": 34.99
+        },
+        {
+            "image": "productimages/tackle3.webp",
+            "title": "HAUSHOF 3PC Fishing Tool Kit",
+            "description": "HAUSHOF 3 piece Fishing Tool Kit: These fishing pliers, fish gripper, and fishing hooks remover are very suitable for freshwater and harsh seawater environments, corrosion-resistant, lightweight, and suitable for long-term fishing. With an adjustable coiled lanyard connected to a clip, it is very convenient to tie on a vest or belt and prevent it from falling into the water or sinking.",
+            "price": 21.99
+        },
+        {
+            "image": "productimages/tackle4.webp",
+            "title": "Plano 6201 One-Tray Tackle Box",
+            "description": "The Plano 6201 One-Tray Tackle Box is the solution your fishing gear has been looking for. The Plano Tackle Box features a cantilever-tray design that extends open for easy access and organization to your fishing gear. The tray can have seven to 13 compartments to provide optimal organization within this tackle box.",
+            "price": 10.99
+        }
+    ]
+}
+  

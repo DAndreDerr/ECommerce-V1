@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "image": "productimages/merchshirt_1.webp",
+            "title": "Dre's Reel Deals Shirt",
+            "description": "Cotton Tshirt with logo",
+            "price": 19.99
+        },
+        {
+            "image": "productimages/merchcollarshirt_1.webp",
+            "title": "Dre's Reel Deals Sweatshirt",
+            "description": "Drifit Nike Collared shirt with logo",
+            "price": 29.99
+        },
+        {
+            "image": "productimages/merchsweatshirt_1.webp",
+            "title": "Dre's Reel Deals Collared Shirt",
+            "description": "Cotton Sweatshirt with logo",
+            "price": 29.99
+        },
+        {
+            "image": "productimages/merchbottle_1.webp",
+            "title": "Dre's Reel Deals Water Bottle",
+            "description": "Waterbottle with logo",
+            "price": 19.99
+        }
+    ]
+}
+  
