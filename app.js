@@ -1,7 +1,9 @@
 // The code below is making an HTTP request to the server to fetch my json file using the `fetch` function
 fetch('products1.json')
 // Once the server response is received we use the "response.json()" method to parse the data into JS file
-  .then(response => response.json())
+// response is the event that starts the download of the data
+// response.json means to finish "fetching" and then parse Json data
+  .then(response => response.json()) 
   .then(data => {
     // below I created variables, inside those I use .document.getElementID() 
     // and inside of that I linked the container I have on my html using the ID 

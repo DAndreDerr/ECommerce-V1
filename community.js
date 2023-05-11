@@ -1,6 +1,6 @@
-var i = 0;
-var images = [];
-var time = 2000;
+let i = 0;
+const images = [];
+const time = 2000;
 
 images[0] = 'catches/catch1.webp';
 images[1] = 'catches/catch2.webp';

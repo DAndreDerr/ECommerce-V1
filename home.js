@@ -4,12 +4,14 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  slideIndex += n
+  showSlides(slideIndex);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  slideIndex = n
+  showSlides(slideIndex);
 }
 
 //The function below displays the appropriate image and updates the dots
